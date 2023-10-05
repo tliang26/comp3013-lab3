@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.large-cover-photo {
+  width: 300px;
+  height: 300px;
+}
+
+.tracklist {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.album-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.small-cover-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.list-text {
+  top: -18px;
+  position: relative;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.list-text:hover {
+  text-decoration: underline;
+}
